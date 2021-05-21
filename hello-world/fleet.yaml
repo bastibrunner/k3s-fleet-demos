@@ -7,3 +7,10 @@ targetCustomizations:
     clusterSelector:
       matchLabels:
         color: green
+  - name: version
+    yaml:
+      overlays:
+        - version
+    clusterSelector:
+      matchLabels:
+        version: new
